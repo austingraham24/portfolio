@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Alert } from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -13,6 +14,10 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Alert bsStyle="warning">
+          <strong>Holy guacamole!</strong> Best check yo self, you're not looking too
+          good.
+        </Alert>;
       </div>
     );
   }
